@@ -12,14 +12,14 @@ p.first:first-line
 
  p.second:before
  {
- content:"TO S¥ ÆWICZENIA";
+ content:"TO SÄ„ Ä†WICZENIA";
  font-size:5;
  font-style:italic;
  font-weight:bold;
  }
 p.second:after
  {
- content:"AUTOR Król Lew";
+ content:"AUTOR KrÃ³l Lew";
  font-size:5pt;
  font-style:italic;
  font-weight:bold;

@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> Zadanie 82</title>
+<script language="JavaScript">
+function pushbutton() {
+alert("Czesc !");}
+</script>
+<style>
+    h1{
+        color:red;
+    }
+    h3.gr{
+        color:green;
+        font-size: 0.5cm;
+    }
+    p.date{
+        font-size: 1cm;
+        color:black;
+    }
+</style>
+</head>
+<body>
+    <h1>Grzybowski</h1>
+    <h3 class="gr">dzis = new Date() - Pobiera dzisiejszą date i tworzy object klasy Date</h3>
+    <h3 class="gr">dzis = dzis.getHours() - odbiera czas z objectu Date</h3>
+    <h3 class="gr">dzis = dzis.getMinutes() - odbiera minuty z objectu Date</h3>
+    <h3 class="gr">dzis = dzis.getMonht()+1 - odbiera miesiąc z objectu Date</h3>
+    <h3 class="gr">dzis = dzis.getDate() - odbiera daty z objectu Date </h3>
+    <h3 class="gr">dzis = dzis.getFullYear() - odbiera rok z objectu Date</h3>
+Ostatnio zmodyfikowany
+<script language="LiveScript">
+document.write(document.lastModified,"<br>")
+</script>
+<form>
+<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+<script language="JavaScript">
+dzis = new Date()
+document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());</script>
+</body>
+</html> 
